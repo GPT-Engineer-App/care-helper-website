@@ -6,10 +6,10 @@ const Index = () => {
     <Container maxW="container.xl">
       <Flex justifyContent="space-between" alignItems="center" p={4}>
         <Heading as="h1" size="xl">
-          Caregiver Connect
+          간병인 연결
         </Heading>
         <Button leftIcon={<FaPhone />} colorScheme="teal" variant="solid">
-          Contact Us
+          연락하기
         </Button>
       </Flex>
       <Stack direction={{ base: "column", md: "row" }} spacing={10} py={10}>
@@ -18,14 +18,14 @@ const Index = () => {
         </Box>
         <VStack flex="1" alignItems="flex-start" spacing={4}>
           <Heading as="h2" size="lg">
-            Professional Caregiving Services
+            전문 간병 서비스
           </Heading>
-          <Text fontSize="lg">We provide high-quality, compassionate care for seniors and individuals with special needs. Let us help you find the perfect caregiver for your loved ones.</Text>
+          <Text fontSize="lg">우리는 고령자 및 특별한 요구를 가진 개인을 위한 고품질의 자비로운 간병을 제공합니다. 귀하의 사랑하는 사람을 위한 완벽한 간병인을 찾는 데 도움을 드리겠습니다.</Text>
           <Button leftIcon={<FaUserNurse />} colorScheme="blue" size="lg">
-            Find a Caregiver
+            간병인 찾기
           </Button>
           <Button leftIcon={<FaRegCalendarAlt />} colorScheme="green" size="lg">
-            Schedule a Visit
+            방문 예약하기
           </Button>
         </VStack>
       </Stack>
